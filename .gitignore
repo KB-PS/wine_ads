@@ -1,0 +1,13 @@
+.DS_Store
+.spyproject/
+customers
+customers.csv
+data/
+keboola_storage_api/
+streamlit_keboola_api/
+test.csv
+test2.csv
+wine
+wine.csv
+wine_orders
+wine_orders.csv
