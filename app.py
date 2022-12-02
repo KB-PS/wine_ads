@@ -25,7 +25,6 @@ def read_df(table_id, index_col=None, date_col=None):
     table_name = table_id.split(".")[-1]
     return pd.read_csv(table_name, index_col=index_col, parse_dates=date_col)
 
-#st.sidebar.markdown('10708-42172-K6hJjHNe5J0gpGVG864QEtyF1tUSKSkIN5TLhFbI')
 add_keboola_table_selection()
 
 def saveFile(uploaded):
