@@ -1,1 +1,2 @@
 git+https://github.com/keboola/sapi-python-client.git
+streamlit-keboola-api
