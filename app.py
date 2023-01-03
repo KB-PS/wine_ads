@@ -94,7 +94,7 @@ if "kbc_storage_client" in st.session_state:
     
     value = kb.keboola_create_update(keboola_URL=client.root_url, 
                                 keboola_key=client._token, 
-                                keboola_table_name="test-ondra", 
+                                keboola_table_name="selected_customers", 
                                 keboola_bucket_id="out.c-streamlit_out", 
                                 keboola_file_path="test.csv", 
                                 keboola_primary_key=['customer_id'],
